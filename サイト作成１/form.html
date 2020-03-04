@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>form.html</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    <div id="borderbox">
+    <header>
+      <ul class="logo">
+          <a href="index.html"><img src="photoes/logo.png" width="350" height="350"></a>
+      </ul>        
+
+      <nav>
+          <id="navi"></id>
+          <ul class="main-nav">
+          <li class="menu" id="current">   <a href="index.html#navi"     class="link">nav-ul-li</a></li>
+            
+          <li class="menu" id="current"> <a href="index.html#paragraph" class="link">paragraph</a></li>
+            
+          <li class="menu" id="current"> <a href="index.html#table" class="link">table</a>
+          </li>
+            
+          <li class="menu" id="current"> <a href="form.html#form"     class="link">form</a>
+          </li>
+            
+        </ul>
+      </nav>
+    </header>      
+       
+     <h1>
+         <div class="form">form</div>
+     </h1>
+         <section>
+        <form action="./mailbox/post.cgi" method="post">
+           
+          <div class="e-mail">
+            <input type="e-mail" placeholder="e-mail" id="e-mail"><br><br>
+          </div>
+          
+          <div class="content">    
+            <textarea type="content" placeholder="内容" id="content"></textarea>
+            <br><br>
+          </div>
+         
+          <div class="submit">
+            <input type="submit" value="送信" id="submit"><br>
+          </div>
+        </form>
+          </section>
+    </div>
+
+</body>
+
+<footer class="copyright">
+    <br>
+    <small>
+      Copyright (c) ＠2020 gftd All Rights Reserved.
+    </small>
+</footer>
+    
+</html>
